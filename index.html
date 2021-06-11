@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="bg"></div>
+	<div class="tictactoe">
+	<table>
+		<tr>
+			<td class="cell" id="0"></td>
+			<td class="cell" id="1"></td>
+			<td class="cell" id="2"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3"></td>
+			<td class="cell" id="4"></td>
+			<td class="cell" id="5"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6"></td>
+			<td class="cell" id="7"></td>
+			<td class="cell" id="8"></td>
+		</tr>
+	</table>
+	</div>
+	<div class="players">
+		<div class="text">No. of Players:</div>
+		<button class="button" onClick="firstMove()">1</button>
+		<button class="button" onClick="firstSymbol2()">2</button>
+	</div>
+	<div class="endgame">
+		<div class="text"></div>
+		<button class="button" onClick="startGame()">Replay</button>
+	</div>
+    <div class="score">SCOREBOARD<br>
+		<span class="score1"></span> : <span class ="score2"></span>
+	</div>
+	<div class="symbol">
+		<div class="text"></div>
+		<button class="button" onClick="chooseX()">X</button>
+		<button class="button" onClick="chooseO()">O</button>
+	</div>
+	<div class="first">
+		<div class="text"></div>
+		<button class="button" onClick="human()">User</button>
+		<button class="button" onClick="CPU()">CPU</button>
+	</div>
+  <script src="main.js"></script>
+</body>
+</html>
