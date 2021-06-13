@@ -14,3 +14,5 @@ Completed CSOC'21-Dev Week-1 Task, i.e. making a TicTacToe.
 - **Task 4:** In single-player mode, add an option to choose who will start first - computer or player.
 
 **Extra Task** accomplished: Record of scores.
+
+#### The website has been deployed [here.](https://atharvabhatt200.github.io/CSOC-Week1-TicTacToe/)
