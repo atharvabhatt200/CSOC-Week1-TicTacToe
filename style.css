@@ -2,15 +2,10 @@ body, html {
 	height: 100%;
 	margin: 0;
 }
-  
+
 .bg {
-	/* The image used */
 	background-image: url("backg.jpg");
-  
-	/* Full height */
 	height: 100%;
-  
-	/* Center and scale the image nicely */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -40,7 +35,7 @@ body, html {
 	background-color: #4CAF50; 
 	color: white;
 }
-  
+
 td {
 	border:  10px solid hsl(59, 62%, 65%);
 	height:  150px;
@@ -78,15 +73,26 @@ table tr td:last-child {
 	border-right: 0;
 }
 
+.titlegame {
+	font-size: 5em;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	width: 500px;
+	top: 35%;
+	position: absolute;
+	left: 50%;
+	margin-left: -260px;
+	margin-top: -85px;
+	text-align: center;
+	color: white;
+}
+
 .score {
 	display: none;
 	width: 500px;
-	/* height: 30px; */
 	bottom: 3%;
 	background-color: rgba(255, 255, 255, 0.95);
 	position: absolute;
 	left: 50%;
-	/* margin: auto; */
 	margin-left: -260px;
 	margin-bottom: 8px;
 	padding-top: 8px;
@@ -103,12 +109,10 @@ table tr td:last-child {
 .players {
 	display: none;
 	width: 500px;
-	/* height: 30px; */
 	top: 50%;
 	background-color: rgb(116, 130, 255);
 	position: absolute;
 	left: 50%;
-	/* margin: auto; */
 	margin-left: -260px;
 	margin-top: -85px;
 	padding-top: 20px;
@@ -125,12 +129,10 @@ table tr td:last-child {
 .symbol {
 	display: none;
 	width: 500px;
-	/* height: 30px; */
 	top: 50%;
 	background-color: rgb(116, 130, 255);
 	position: absolute;
 	left: 50%;
-	/* margin: auto; */
 	margin-left: -260px;
 	margin-top: -85px;
 	padding-top: 20px;
@@ -147,12 +149,10 @@ table tr td:last-child {
 .first {
 	display: none;
 	width: 500px;
-	/* height: 30px; */
 	top: 50%;
 	background-color: rgb(116, 130, 255);
 	position: absolute;
 	left: 50%;
-	/* margin: auto; */
 	margin-left: -260px;
 	margin-top: -85px;
 	padding-top: 20px;
@@ -167,24 +167,22 @@ table tr td:last-child {
 }
 
 .endgame {
-  display: none;
-  width: 500px;
-  /* height: 30px; */
-  top: 3%;
-  background-color: rgb(116, 130, 255);
-  position: absolute;
-  left: 50%;
-  /* margin: auto; */
-  margin-left: -260px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  text-align: center;
-  vertical-align:  text-top;
-  border: 8px ridge rgb(85, 0, 40);
-  border-radius: 50px;
-  color: white;
-  font-size: 3em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+    width: 500px;
+    top: 3%;
+    background-color: rgb(116, 130, 255);
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    vertical-align:  text-top;
+    border: 8px ridge rgb(85, 0, 40);
+    border-radius: 50px;
+    color: white;
+    font-size: 3em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 

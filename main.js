@@ -75,6 +75,7 @@ function firstMove() {
 }
 
 function startGame() {
+	document.querySelector(".titlegame").style.display = "none";
 	document.querySelector(".symbol").style.display = "none";
 	document.querySelector(".endgame").style.display = "none";
 	if(singlePlayer) startGame1();
