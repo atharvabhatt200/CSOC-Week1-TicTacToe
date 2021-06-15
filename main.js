@@ -22,6 +22,14 @@ let circleTurn
 
 showPlayers()
 
+document.addEventListener('click', musicPlay);
+function musicPlay() {
+    document.getElementById('bgm').play();
+	var aud = document.getElementById("bgm");
+    aud.volume = 0.3;
+    document.removeEventListener('click', musicPlay);
+}
+
 function chooseX() {
 	X_CLASS = 'X';
 	O_CLASS = 'O';
