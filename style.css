@@ -42,7 +42,7 @@ td {
 	width:  150px;
 	text-align:  center;
 	vertical-align:  middle;
-	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Times New Roman', serif;
 	color: white;
 	font-size:  100px;
 	cursor: pointer;
@@ -75,12 +75,12 @@ table tr td:last-child {
 
 .titlegame {
 	font-size: 5em;
-	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Times New Roman', serif;
 	width: 500px;
 	top: 35%;
 	position: absolute;
 	left: 50%;
-	margin-left: -260px;
+	margin-left: -250px;
 	margin-top: -85px;
 	text-align: center;
 	color: white;
